@@ -28,7 +28,7 @@ public class testeSomador {
 
   @Test
   public void testE() throws Exception {
-    driver.get(baseUrl + "/SomaParcelas/index.jsp");
+    driver.get(baseUrl + "/EstudosJavaEE/somaParcelas.jsp");
     driver.findElement(By.name("p1")).clear();
     driver.findElement(By.name("p1")).sendKeys("12");
     driver.findElement(By.name("p2")).clear();
