@@ -46,5 +46,6 @@
 	<classpathentry kind="lib" path="C:/Users/felip/Documents/selenium-java-3.4.0/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/felip/Documents/selenium-java-3.4.0/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/felip/Documents/selenium-java-3.4.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/felip/Documents/selenium-java-3.4.0/client-combined-3.4.0-nodeps.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
