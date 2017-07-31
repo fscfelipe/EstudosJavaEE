@@ -21,19 +21,30 @@ public class TempTest {
 
 	  @Before
 	  public void setUp() throws Exception {
+		System.setProperty("webdriver.gecko.driver", "../recursos/geckodriver.exe");
 	    driver = new FirefoxDriver();
 	    baseUrl = "http://localhost:8080/";
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  }
 
 	  @Test
-	  public void testTemp() throws Exception {
+	  public void testCelsiusToFahrenheit() throws Exception {
 	    driver.get(baseUrl + "/CelsiusToFahrenheit/");
 	    new Select(driver.findElement(By.name("tempOpt"))).selectByVisibleText("Fahrenheit");
 	    driver.findElement(By.name("temperatura")).clear();
 	    driver.findElement(By.name("temperatura")).sendKeys("100");
 	    driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
 	    assertEquals("Valor convertido: 212.0", driver.findElement(By.cssSelector("h1")).getText());
+	  }
+	  
+	  @Test
+	  public void testFahrenheitToCelsius() throws Exception {
+	    driver.get(baseUrl + "/CelsiusToFahrenheit/");
+	    new Select(driver.findElement(By.name("tempOpt"))).selectByVisibleText("Celsius");
+	    driver.findElement(By.name("temperatura")).clear();
+	    driver.findElement(By.name("temperatura")).sendKeys("212");
+	    driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
+	    assertEquals("Valor convertido: 100.0", driver.findElement(By.cssSelector("h1")).getText());
 	  }
 
 	  @After
