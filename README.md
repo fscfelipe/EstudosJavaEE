@@ -1,11 +1,12 @@
 # Projeto de estudos
 
-# InstalaÁ„o do Selenium
+# Servidores
+Para os projetos est√° sendo usado o Apache Tomcat [v8.5.16](http://tomcat.apache.org/download-80.cgi)
+
+# Instala√ß√£o do Selenium
 [WebDriver](http://www.seleniumhq.org/download/)
-
 [Selenium IDE](https://addons.mozilla.org/pt-BR/firefox/addon/selenium-ide/)
-
 [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 
-Para execuÁ„o dos testes È preciso utilizar o GeckoDriver, o link a seguir explica
+Para execu√ß√£o dos testes √© preciso utilizar o GeckoDriver, o link a seguir explica
 o uso. [Link](http://eliasnogueira.com/resolvendo-o-problema-de-execucao-com-selenium-no-firefox-47/)
