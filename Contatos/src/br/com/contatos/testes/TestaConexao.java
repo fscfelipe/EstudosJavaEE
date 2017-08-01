@@ -7,16 +7,11 @@ import br.com.contatos.jdbc.ConnectionFactory;
 
 public class TestaConexao {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		
 		Connection connection = new ConnectionFactory().getConnection();
 		System.out.println("Conexão aberta!");
-		
-		try {
-			connection.close();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
+		connection.close();
 
 	}
 
