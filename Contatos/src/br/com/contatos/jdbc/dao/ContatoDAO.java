@@ -64,7 +64,7 @@ public class ContatoDAO {
 	
 	public void remove(Contato contato) {
 	     try {
-	         PreparedStatement stmt = connection.prepareStatement("delete" +
+	         PreparedStatement stmt = connection.prepareStatement("delete " +
 	         "from contatos where id=?");
 	         
 	         stmt.setLong(1, contato.getId());
