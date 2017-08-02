@@ -1,5 +1,8 @@
 # Projeto de estudos
 
+# JSTL
+Para baixar o .jar , e para mais informações, segue o [link](https://tomcat.apache.org/taglibs/standard/)
+
 # JDBC
 Link para download do drive postgresql [v4.2](https://jdbc.postgresql.org/download.html) <br />
 Neste [link](https://www.mkyong.com/jdbc/how-do-connect-to-postgresql-with-jdbc-driver-java/) pode ser encontrado um tutorial de como preparar a conexão. 
