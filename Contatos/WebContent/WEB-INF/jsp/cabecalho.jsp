@@ -12,6 +12,7 @@
 
 	<ul>
 	  <li><a class="active" href="inicio.jsp">Home</a></li>
+	  <li><a class="active" href="mvc?logica=FormularioContatoLogica">Adicionar contato</a></li>
 	</ul>
 
 	<img src="imagens/cabecalho.png"/> 
