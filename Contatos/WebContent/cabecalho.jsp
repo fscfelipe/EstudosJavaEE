@@ -5,8 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Cabeçalho</title>
+<link href="css/navbar.css" rel="stylesheet">
+
 </head>
 <body>
+
+	<ul>
+	  <li><a class="active" href="inicio.jsp">Home</a></li>
+	</ul>
 
 	<img src="imagens/cabecalho.png"/> 
 	<hr/>
