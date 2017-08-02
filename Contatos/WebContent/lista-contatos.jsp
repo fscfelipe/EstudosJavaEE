@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -10,6 +11,8 @@
 </head>
 <body>
 
+	<c:import url="cabecalho.jsp" />
+
 	<jsp:useBean id="dao" class="br.com.contatos.jdbc.dao.ContatoDAO"/>
 	
 	<table>
@@ -18,10 +21,13 @@
 	      <td>${contato.nome}</td>
 	      <td>${contato.email}</td>
 	      <td>${contato.endereco}</td>
-	      <td>${contato.dataNascimento.time}</td>
+	      <td><fmt:formatDate value="${contato.dataNascimento.time}" pattern="dd/MM/yyyy" /></td>
 	    </tr>
 	  </c:forEach>
 	</table>
+	
+	<c:import url="rodape.jsp" />
+	
 
 </body>
 </html>
