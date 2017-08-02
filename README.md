@@ -1,11 +1,19 @@
 # Projeto de estudos
 
-# InstalaÁ„o do Selenium
-[WebDriver](http://www.seleniumhq.org/download/)
+# JSTL
+Para baixar o .jar , e para mais informa√ß√µes, segue o [link](https://tomcat.apache.org/taglibs/standard/)
 
-[Selenium IDE](https://addons.mozilla.org/pt-BR/firefox/addon/selenium-ide/)
+# JDBC
+Link para download do drive postgresql [v4.2](https://jdbc.postgresql.org/download.html) <br />
+Neste [link](https://www.mkyong.com/jdbc/how-do-connect-to-postgresql-with-jdbc-driver-java/) pode ser encontrado um tutorial de como preparar a conex√£o. 
 
-[GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+# Servidores
+Para os projetos est√° sendo usado o Apache Tomcat [v8.5.16](http://tomcat.apache.org/download-80.cgi)
 
-Para execuÁ„o dos testes È preciso utilizar o GeckoDriver, o link a seguir explica
+# Instala√ß√£o do Selenium
+[WebDriver](http://www.seleniumhq.org/download/) <br />
+[Selenium IDE](https://addons.mozilla.org/pt-BR/firefox/addon/selenium-ide/) <br />
+[GeckoDriver](https://github.com/mozilla/geckodriver/releases) <br />
+
+Para execu√ß√£o dos testes √© preciso utilizar o GeckoDriver, o link a seguir explica
 o uso. [Link](http://eliasnogueira.com/resolvendo-o-problema-de-execucao-com-selenium-no-firefox-47/)
