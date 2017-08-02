@@ -9,7 +9,7 @@
 <body>
 
 	<hr />
-	Copyright 2010 - Todos os direitos reservados
+	Copyleft 2017 - Felipe Sobreira Cassimiro
 
 
 </body>
