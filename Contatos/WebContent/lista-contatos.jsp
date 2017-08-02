@@ -8,6 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Lista de contatos</title>
+<link href="css/tabela.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,8 +17,14 @@
 	<jsp:useBean id="dao" class="br.com.contatos.jdbc.dao.ContatoDAO"/>
 	
 	<table>
+		<tr>
+		    <th>Nome</th>
+		    <th>Email</th>
+		    <th>Endereço</th>
+		    <th>Data de nascimento</th>
+  		</tr>
 	  <c:forEach var="contato" items="${dao.listaContatos}" varStatus="id">
-	    <tr bgcolor="#${id.count % 2 == 0 ? 'aaee88' : 'ffffff' }" >
+	    <tr>
 	      <td>${contato.nome}</td>
 	      <td>${contato.email}</td>
 	      <td>${contato.endereco}</td>
