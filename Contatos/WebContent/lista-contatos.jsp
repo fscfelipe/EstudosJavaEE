@@ -14,8 +14,6 @@
 
 	<c:import url="cabecalho.jsp" />
 
-	<jsp:useBean id="dao" class="br.com.contatos.jdbc.dao.ContatoDAO" />
-
 	<table>
 		<tr>
 			<th>Nome</th>
@@ -23,7 +21,7 @@
 			<th>Endereço</th>
 			<th>Data de nascimento</th>
 		</tr>
-		<c:forEach var="contato" items="${dao.listaContatos}" varStatus="id">
+		<c:forEach var="contato" items="${contatos}" varStatus="id">
 			<tr>
 				<td>${contato.nome}</td>
 				<td>${contato.email}</td>
