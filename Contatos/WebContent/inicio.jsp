@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<c:redirect url="/lista-contatos.jsp"/>
+<c:redirect url="/mvc?logica=ListaContatosLogica"/>
 
 </body>
 </html>
