@@ -1,3 +1,3 @@
 # Agenda de contatos
 
-![Overview do projeto](EstudosJavaEE/Contatos/WebContent/imagens/overview.png )
+![Overview do projeto](https://github.com/fscfelipe/EstudosJavaEE/blob/master/Contatos/WebContent/imagens/overview.png)
