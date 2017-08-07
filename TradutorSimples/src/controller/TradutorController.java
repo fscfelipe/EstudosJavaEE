@@ -25,6 +25,7 @@ public class TradutorController extends HttpServlet {
 
 		String palavra = request.getParameter("palavra");
 		palavra = palavra.toLowerCase();
+		
 
 		InputStream is = getClass().getClassLoader().getResourceAsStream("model/listaPalavras.txt");
 		BufferedReader br = new BufferedReader(new InputStreamReader(is));
@@ -54,7 +55,7 @@ public class TradutorController extends HttpServlet {
 		request.setAttribute("flag", flag);
 		br.close();
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/traducao.jsp");
 		rd.forward(request, response);
 
 	}
