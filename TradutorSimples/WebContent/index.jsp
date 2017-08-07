@@ -16,14 +16,6 @@
 			type="submit" value="Traduzir">
 	</form>
 	
-	<c:if test = "${flag}">
-         <p>Tradução:  <b><c:out value = "${palavra}"/></b><p>
-    </c:if>
-    
-    <c:if test = "${(not empty palavra) && (!flag)}">
-         <p>A palavra <b>${palavra}</b> não possui tradução <p>
-    </c:if>
-	
 
 </body>
 </html>
